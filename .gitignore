@@ -1,0 +1,33 @@
+# Flutter / Dart
+.dart_tool/
+.packages
+.pub-cache/
+.pub/
+build/
+.flutter-plugins
+.flutter-plugins-dependencies
+
+# IDE
+.idea/
+.vscode/
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# Android signing credentials
+*.jks
+*.keystore
+key.properties
+android/key.properties
+
+# Private certificates and keys
+*.p12
+*.pfx
+*.pem
+*.key
+
+# Firebase Admin SDK credentials
+serviceAccount*.json
+firebase-adminsdk*.json

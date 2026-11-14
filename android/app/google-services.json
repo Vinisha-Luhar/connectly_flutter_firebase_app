@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "742975809954",
+    "project_id": "connectly-39fe8",
+    "storage_bucket": "connectly-39fe8.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:742975809954:android:6e81fb45531f0fc45d6afb",
+        "android_client_info": {
+          "package_name": "com.connectly.connectly"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAUlfY-bXIdDGax3oIwd1JBSdUU8ihA6QQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
