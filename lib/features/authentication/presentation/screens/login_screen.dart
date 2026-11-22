@@ -1,6 +1,7 @@
 
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
+import 'package:go_router/go_router.dart';
 
 import '../../domain/errors/auth_failure.dart';
 import '../providers/auth_controller.dart';
@@ -157,6 +158,16 @@ class _LoginScreenState extends ConsumerState<LoginScreen> {
                         )
                             : const Text('Sign In'),
                       ),
+                    ),
+                    Row(
+                      mainAxisAlignment: MainAxisAlignment.center,
+                      children: [
+                        const Text("Don't have an account? "),
+                        TextButton(
+                          onPressed: () => context.go('/register'),
+                          child: const Text('Create account'),
+                        ),
+                      ],
                     ),
                   ],
                 ),
